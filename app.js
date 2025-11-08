@@ -3,7 +3,7 @@ const app = express();
 const PORT = 3000;
 
 app.get('/', (req, res) => {
-  res.send('Hello from CI/CD pipeline on AWS!');
+  res.send('Hello from CI/CD pipeline on AWS with some changes!');
 });
 
 app.listen(PORT, () => console.log(`App running on port ${PORT}`));
